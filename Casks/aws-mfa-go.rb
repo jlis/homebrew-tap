@@ -3,7 +3,7 @@ cask "aws-mfa-go" do
   name "aws-mfa-go"
   desc "Minimal AWS MFA helper for the CLI (STS GetSessionToken -> ~/.aws/credentials)"
   homepage "https://github.com/jlis/aws-mfa-go"
-  version "0.1.1"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "aws-mfa-go" do
     on_intel do
       url "https://github.com/jlis/aws-mfa-go/releases/download/v#{version}/aws-mfa-go_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/jlis/aws-mfa-go"
-      sha256 "ea0f946eacac7640466165162263c172c10cc6328e1454c78a52e68b51d2b11d"
+      sha256 "edeb57e97ac8e67046bed9622cc962fa46b79a475955d6247bc2b2a5b8365d1a"
     end
     on_arm do
       url "https://github.com/jlis/aws-mfa-go/releases/download/v#{version}/aws-mfa-go_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/jlis/aws-mfa-go"
-      sha256 "a72608c52dbb6b3e58aceb99ad9d3f018ea13a743da1c97841870ee0d18a8938"
+      sha256 "4082483b5cb7a6ce11cd26c78bd96f5d7edaed72424d929e774bf6b845367e5f"
     end
   end
 
@@ -28,12 +28,12 @@ cask "aws-mfa-go" do
     on_intel do
       url "https://github.com/jlis/aws-mfa-go/releases/download/v#{version}/aws-mfa-go_#{version}_linux_amd64.tar.gz",
         verified: "github.com/jlis/aws-mfa-go"
-      sha256 "946250ea8b1eaf0d9b21aae4964af1bcc54417ea1d5ee62c7fef8a19628d8537"
+      sha256 "9378f2a6edab22ac3a7b96ed2944fcaedf27bae73748bfe812054b29e9dbdffa"
     end
     on_arm do
       url "https://github.com/jlis/aws-mfa-go/releases/download/v#{version}/aws-mfa-go_#{version}_linux_arm64.tar.gz",
         verified: "github.com/jlis/aws-mfa-go"
-      sha256 "4381f76004a5de33cdc982874e7da0e4f6515ec28980e58bbc6fe0209f15d715"
+      sha256 "f5d879e235cdd14672e1c71e1b586d1ad2d1ba43291f47184687815a6d034af2"
     end
   end
 
